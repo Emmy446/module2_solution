@@ -1,18 +1,18 @@
-/* Base Styles */
+
 
 * {
 	box-sizing: border-box;
 }
 
 h1 {
-	font-family: Brushstroke, fantasy;
+	font-family: Bell MT;
 	color: #000000;
 	text-align: center;
 }
 
 body {
 
-	background-color: #FEF5CA;
+	background-color: lightgreen;
 
 }
 
@@ -35,7 +35,7 @@ section {
 	background-color: gray;
 	width: 100%;
 	height: 200px;
-	font-family: Helvetica;
+	font-family: Century;
 	color: black;
 	position: relative;
 	overflow: auto;
@@ -46,13 +46,13 @@ section {
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: Times New Roman,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: pink;
 }
 
 #beef {
@@ -60,13 +60,14 @@ section {
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: Times New Roman,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+	background-color: darkred;
+  color: white;
 }
 
 #sushi {
@@ -74,13 +75,13 @@ section {
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
-	font-family: Georgia,sans-serif;
+	font-family: Times New Roman,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
+	background-color: yellow;
+	
 	padding: 5px;
 }
 
@@ -88,7 +89,7 @@ section {
 	width: 100%;
 }
 
-/* Desktop view */
+/* Desktop View */
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -134,7 +135,7 @@ section {
 
 }
 
-/* Tablet view */
+/* Tablet View */
 
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -179,7 +180,7 @@ section {
   }
 }
 
-/* Mobile view */
+/* Mobile View */
 
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
